@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Times, serif;
+    color: white;
+    background-color: black;
+}
+  
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+  
+.header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+  
+header > .title {
+    margin-bottom: 1rem;
+}
+  
+.tribute {
+    display:block;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+  
+.tribute blockquote {
+    text-align:center;
+    font-size: 2.5rem;
+    align-items: center;
+}
+
+  
+.bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+  
+.bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+}
+.bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    border: 3-x solid white;
+}
+  
+.bio > hr {
+    margin-top: 2rem;
+}
+  
+.bio > p > iframe {
+    width: 700px;
+    height: 700px;
+    overflow: auto;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 3px solid purple;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: purple;
+    color: white;
+}
